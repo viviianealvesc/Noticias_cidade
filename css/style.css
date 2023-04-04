@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../image/fundo.png) repeat-x;
+}
+
+.barra-navegacao {
+    max-width: 750px;
+    margin: auto;
+}
+
+.menu {
+    height: 180px;
+    background: url(../image/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    border-left: 1px solid rgb(223, 73, 113);
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    background: rgb(234, 33, 87);
+    max-width: 590px;
+    margin: 20px auto;
+    border-radius: 20px;
+    
+}
+
+#teste {
+    border-left: none;
+}
+
+.menu a:hover {
+    color: rgb(151, 3, 42);
+    transition: 0.5s;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../image/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
